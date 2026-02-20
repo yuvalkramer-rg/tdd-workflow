@@ -22,9 +22,25 @@ For multiple features, each completes the full cycle before the next begins — 
 
 ## Installation
 
+### Option A: Clone and load as a local plugin
+
 ```bash
-claude install-plugin yuvalkramer-rg/tdd-workflow
+git clone https://github.com/yuvalkramer-rg/tdd-workflow.git
+claude --plugin-dir ./tdd-workflow
 ```
+
+### Option B: Add as a plugin marketplace
+
+From within Claude Code:
+
+```
+/plugin marketplace add yuvalkramer-rg/tdd-workflow
+/plugin install tdd-workflow@tdd-workflow
+```
+
+### Option C: Copy the skill into your project
+
+Copy `skills/tdd-workflow/SKILL.md` into your project's `.claude/skills/tdd-workflow/SKILL.md`. The skill will be auto-discovered on the next Claude Code session.
 
 ## Usage
 
