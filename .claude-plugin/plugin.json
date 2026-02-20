@@ -1,0 +1,9 @@
+{
+  "name": "tdd-workflow",
+  "version": "1.0.0",
+  "description": "Test-Driven Development workflow with dedicated subagents for each Red-Green-Refactor phase",
+  "author": {
+    "name": "TDM Team"
+  },
+  "license": "MIT"
+}
